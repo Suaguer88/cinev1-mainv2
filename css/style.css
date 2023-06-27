@@ -251,3 +251,33 @@ nav > ul > li:first-child > a{
         z-index: 1;
     }
     
+    /*Otros serviciso*/
+    .cta_main{
+        width: 100%;
+        text-align: center;
+    }
+    .frontpage_cta-wrapper{
+        overflow: hidden;
+    }
+
+    .frontpage_cta-title{
+        font-size: 2.0rem;
+        font-family: var(--fuente);
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .frontpage_cta-action{
+        margin: 0 auto;
+        margin-top: 30px;
+        border-width: 2px;
+        border: 3px solid rgb(47, 110, 173);
+        /*border-color: #000000;*/
+        color: green;
+        text-decoration: none;
+        display: block;
+        font-size: 1.2rem;
+        visibility: visible;
+        background-color: transparent;
+        line-height: 22px;
+    }
